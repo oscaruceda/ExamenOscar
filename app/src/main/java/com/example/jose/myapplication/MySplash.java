@@ -36,15 +36,15 @@ public class MySplash  extends AppCompatActivity implements Animation.AnimationL
     }
     @Override
     public void onAnimationStart(Animation animation) {
-        Intent intent = new Intent(MySplash.this,MyLogin.class);
 
-        startActivity(intent);
-        finish();
     }
 
     @Override
     public void onAnimationEnd(Animation animation) {
+        Intent intent = new Intent(MySplash.this,MyLogin.class);
 
+        startActivity(intent);
+        finish();
     }
 
     @Override
